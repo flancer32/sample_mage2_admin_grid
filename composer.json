@@ -1,0 +1,21 @@
+{
+  "name": "flancer32/sample_mage2_admin_grid",
+  "description": "Magento 2 sample: Adding grid to Admin UI.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/sample_mage2_admin_grid",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\Sample\\": "src/"
+    }
+  }
+}
