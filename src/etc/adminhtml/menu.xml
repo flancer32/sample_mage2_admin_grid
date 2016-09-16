@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Flancer32_Sample::sample"
+                title="Sample" translate="title" module="Flancer32_Sample"
+                sortOrder="15"
+                resource="Flancer32_Sample::sample"/>
+        <add id="Flancer32_Sample::sample_grid"
+                title="Grid" translate="title" module="Flancer32_Sample"
+                sortOrder="100" parent="Flancer32_Sample::sample"
+                action="sample/grid"
+                resource="Flancer32_Sample::sample_grid"/>
+    </menu>
+</config>
