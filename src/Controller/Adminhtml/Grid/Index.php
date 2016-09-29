@@ -21,7 +21,8 @@ class Index
      */
     protected function _isAllowed()
     {
-        $result = $this->_authorization->isAllowed(self::ACL_RESOURCE);
+        $result = parent::_isAllowed();
+        $result = $result && $this->_authorization->isAllowed(self::ACL_RESOURCE);
         return $result;
     }
 
